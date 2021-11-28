@@ -5,7 +5,7 @@ const CONFIG = {
     btnIntro: '^^HiHi^^',
     title: 'Trả lời đúng câu này sẽ được quà nè ^^',
     desc: 'Sợ anh khônggg?? 😙',
-    btnYes: 'Gất là sợ luônnn <33',
+    btnYes: 'Gất là sợ luônnn :>>',
     btnNo: 'Không nha :3',
     question: 'Đấy, ngoan như thế mới được,giờ em muốn quà gì, ông già Đô-el sẽ gửi cho em 🎅🎅😉',
     btnReply: '📧',
