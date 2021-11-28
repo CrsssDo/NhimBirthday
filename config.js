@@ -1,7 +1,7 @@
 const CONFIG = {
     titleWeb: "Nhím's birthday",
     introDesc: `Nghe giang hồ đồn hôm nay là sinh nhật của Phan Lê Nhím, nên anh muốn làm cái gì đó tặng em nè hehe,
-     món quà vật chất bằng 0%, nhưng mà tui hi vọng là em sẽ thích nó, em biết tui làm gì cũng tâm huyết mà đúng hông? 😙`,
+     món quà vật chất bằng 0%, nhưng mà tui hi zọng là em sẽ thích nó kaka, em biết tui làm gì cũng tâm huyết mà đúng hông? 😙`,
     btnIntro: '^^HiHi^^',
     title: 'Trả lời đúng câu này sẽ được quà nè ^^',
     desc: 'Sợ anh khônggg?? 😙',
