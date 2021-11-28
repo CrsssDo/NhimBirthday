@@ -2,13 +2,13 @@
 
 body {
     background-image: -webkit-gradient(
-        radial,
-        50% 50%,
-        0,
-        50% 50%,
-        100,
-        color-stop(0%, #374566),
-        color-stop(100%, #010203)
+            radial,
+            50% 50%,
+            0,
+            50% 50%,
+            100,
+            color-stop(0%, #374566),
+            color-stop(100%, #010203)
     );
     background-image: -webkit-radial-gradient(#374566, #010203);
     background-image: -moz-radial-gradient(#374566, #010203);
@@ -21,10 +21,11 @@ span {
 }
 .container {
     width: 800px;
-    height: 100%;
+    height: 60%;
     padding: 10px;
-    margin: 0 auto;
+    margin: 0;
     position: relative;
+    margin-right: 200px;
 }
 .balloon {
     width: 738px;
@@ -235,9 +236,24 @@ span {
 .avatar__img {
     position: absolute;
     top:100px;
+    width: 350px;
+    height: 280px;
+    margin-right: 50px;
+    color:red;
+    font-size: 1em;
+    text-decoration: none;
+    box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
+    -webkit-animation: balloon1 6s ease-in-out infinite;
+    -moz-animation: balloon1 6s ease-in-out infinite;
+    -o-animation: balloon1 6s ease-in-out infinite;
+    animation: balloon1 6s ease-in-out infinite;
+}
+.avatar__img2 {
+    position: inherit;
+    top: 30px;
     width: 400px;
-    height: 400px;
-  left:150px;
+    height: 300px;
+    margin-left: 45rem;
     box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
     -webkit-animation: balloon1 6s ease-in-out infinite;
     -moz-animation: balloon1 6s ease-in-out infinite;
@@ -251,48 +267,32 @@ span {
     -moz-animation: balloon1 4s ease-in-out infinite;
     -o-animation: balloon1 4s ease-in-out infinite;
     animation: balloon1 4s ease-in-out infinite;
-  font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive;
 }
 h1 {
-     position: relative;
+    position: relative;
     top: 200px;
     color: pink;
     font-size: 2.5em;
 }
 h2 {
-     position: relative;
+    position: relative;
     top: 300px;
     color: pink;
     font-size: 2.5em;
 }
 .video-container{
-  display: flex;
-  flex-direction: column;
-  height: fit-content;
-  align-items: center;
-  
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+
 }
 .video-container video{
-  margin-bottom: 20px;
-  width: 50%;
+    margin-bottom: 20px;
+    width: 50%;
 }
 
-/* .video-container .video1 {
-    left:500px;
-    top:50px;
-}
-.video-container .video2 {
-    left:500px;
-    top:800px;
-}
-.video-container .video3 {
-    left:500px;
-    top:1500px;
-}
-.video-container .video4 {
-    left:500px;
-    top:2300px;
-} */
 .ngaysn {
     top:100px;
     position: relative;
@@ -301,9 +301,9 @@ h2 {
     align-items: center;
     color: Pink;
     font-size: 2.5em;
-  font-family: 'Arial', cursive; 
-  line-height:1.5;
-   text-decoration: none;
+    font-family: 'Arial', cursive;
+    line-height:1.5;
+    text-decoration: none;
 }
 
 .chonngay {
@@ -314,8 +314,8 @@ h2 {
     align-items: center;
     color: Pink;
     font-size: 2em;
-  font-family: 'Arial', cursive; 
-   text-decoration: none;
+    font-family: 'Arial', cursive;
+    text-decoration: none;
 }
 .hopqua1 {
     position: absolute;
@@ -323,7 +323,7 @@ h2 {
     height:200px;
     left:50px;
     top:100px;
-  
+
 }
 .hopqua2 {
     position: absolute;
@@ -331,8 +331,8 @@ h2 {
     height:200px;
     left:350px;
     top:100px;
-   color:Pink;
-  font-size: 2em;
+    color:Pink;
+    font-size: 2em;
 }
 .hopqua3 {
     position: absolute;
@@ -340,8 +340,8 @@ h2 {
     height:200px;
     left:650px;
     top:100px;
-   color:Pink;
-  font-size: 2em;
+    color:Pink;
+    font-size: 2em;
 }
 .hopqua4 {
     position: absolute;
@@ -349,8 +349,8 @@ h2 {
     height:200px;
     left:950px;
     top:100px;
-   color:Pink;
-  font-size: 2em;
+    color:Pink;
+    font-size: 2em;
 }
 .hopqua5 {
     position: absolute;
@@ -358,8 +358,8 @@ h2 {
     height:200px;
     left:1250px;
     top:100px;
-   color:Pink;
-  font-size: 2em;
+    color:Pink;
+    font-size: 2em;
 }
 .hopqua6 {
     position: absolute;
@@ -367,8 +367,8 @@ h2 {
     height:200px;
     left:50px;
     top:400px;
-   color:Pink;
-  font-size: 2em;
+    color:Pink;
+    font-size: 2em;
 }
 .hopqua7 {
     position: absolute;
@@ -376,8 +376,8 @@ h2 {
     height:200px;
     left:350px;
     top:400px;
-   color:Pink;
-  font-size: 2em;
+    color:Pink;
+    font-size: 2em;
 }
 .hopqua8 {
     position: absolute;
@@ -385,8 +385,8 @@ h2 {
     height:200px;
     left:650px;
     top:400px;
-   color:Pink;
-  font-size: 2em;
+    color:Pink;
+    font-size: 2em;
 }
 .hopqua9 {
     position: absolute;
@@ -394,8 +394,8 @@ h2 {
     height:200px;
     left:950px;
     top:400px;
-   color:Pink;
-  font-size: 2em;
+    color:Pink;
+    font-size: 2em;
 }
 .hopqua10 {
     position: absolute;
@@ -403,8 +403,8 @@ h2 {
     height:200px;
     left:1250px;
     top:400px;
-   color:Pink;
-  font-size: 2em;
+    color:Pink;
+    font-size: 2em;
 }
 .hopqua11 {
     position: relative;
@@ -414,17 +414,17 @@ h2 {
     align-items: center;
     color: Pink;
     font-size: 2em;
-  font-family: 'lobster', cursive; 
-  text-decoration: none;
+    font-family: 'lobster', cursive;
+    text-decoration: none;
 }
 .hopqua12 {
     position: absolute;
     left:100px;
     top:700px;
-   color:Pink;
-  font-size: 1em;
-  font-family: 'Arial', cursive; 
-  text-decoration: none;
+    color:Pink;
+    font-size: 1em;
+    font-family: 'Arial', cursive;
+    text-decoration: none;
 }
 .error {
     position: relative;
@@ -434,105 +434,105 @@ h2 {
     align-items: center;
     color: Pink;
     font-size: 2em;
-  font-family: 'Arial', cursive;
-  text-decoration: none;
+    font-family: 'Arial', cursive;
+    text-decoration: none;
 }
 
 .tranghpbd {
-     
-  position: relative;
-    top:400px;
+
+    position: relative;
+    top:100px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: Pink;
     font-size: 4em;
-  font-family: 'Lobster', cursive;
-  text-decoration: none;
-  -webkit-animation: balloon1 4s ease-in-out infinite;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    -webkit-animation: balloon1 4s ease-in-out infinite;
     -moz-animation: balloon1 4s ease-in-out infinite;
     -o-animation: balloon1 4s ease-in-out infinite;
     animation: balloon1 4s ease-in-out infinite;
-  font-family: 'Lobster', cursive;
-  line-height:0.5;
+    font-family: 'Lobster', cursive;
+    line-height:0.5;
 }
 .tranghpbd1 {
     position: relative;
-    top:400px;
+    top:100px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: Pink;
     font-size: 1.5em;
-  font-family: 'Arial', cursive; 
-  text-decoration: none;
-  line-height:1;
+    font-family: 'Arial', cursive;
+    text-decoration: none;
+    line-height:1;
 }
 .trangvideo {
-   color: pink;
-  font-size: 1rem;
-  text-align: center;
+    color: pink;
+    font-size: 1rem;
+    text-align: center;
 }
 .video-bottom{
-  position: relative;
-  display: flex;
-  justify-content: space-between;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .video-bottom a{
-  color: pink;
-  font-size: 1rem;
-  text-decoration: none;
+    color: pink;
+    font-size: 1rem;
+    text-decoration: none;
 }
 
 .trangani {
-    
-    
-  top:50px;
-   color:red;
-  font-size: 1em;
-  text-align: center;
+
+
+    top:50px;
+    color:red;
+    font-size: 1em;
+    text-align: center;
 }
 .trangani1 {
     position: absolute;
     left:100px;
     top:500px;
-   color:Pink;
-  font-size: 1em;
-  text-decoration: none;
+    color:Pink;
+    font-size: 1em;
+    text-decoration: none;
 }
 .trangani2 {
     position: absolute;
     right:100px;
     top:500px;
-   color:Pink;
-  font-size: 1em;
-  text-decoration: none;
+    color:Pink;
+    font-size: 1em;
+    text-decoration: none;
 }
 .trangloi {
     position: absolute;
     left:10px;
     top:300px;
-   color:red;
-  font-size: 1em;
-   text-decoration: none;
+    color:red;
+    font-size: 1em;
+    text-decoration: none;
 }
 .trangloi1 {
     position: absolute;
     left:100px;
     top:700px;
-   color:Pink;
-  font-size: 1em;
-   text-decoration: none;
-  line-height:1.5;
+    color:Pink;
+    font-size: 1em;
+    text-decoration: none;
+    line-height:1.5;
 }
 .trangloi2 {
     position: absolute;
     right:100px;
     top:700px;
-   color:Pink;
-  font-size: 1em;
-   text-decoration: none;
+    color:Pink;
+    font-size: 1em;
+    text-decoration: none;
 }
 
 .balloon > div:before {
@@ -713,13 +713,13 @@ span {
 body {
     font-family: sans-serif;
     font-size: 100%;
-    
+
     margin: 0 auto;
     padding: 5em;
     width: 70em;
 }
 figure {
-    
+
     float: left;
     height: 10em;
     margin: 3em;
@@ -739,7 +739,7 @@ figure:hover img {
     box-shadow: none;
 }
 figcaption {
-    
+
     color: #fff;
     padding: 0em;
     -webkit-transform: rotateX(-90deg);
@@ -754,38 +754,282 @@ h3 {
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 img {
-padding: 30px;
-transform: scale(1);
-transition: all 0.5s;
-background-color: transparent !important;
-box-shadow: none !important;
+    padding: 30px;
+    transform: scale(1);
+    transition: all 0.5s;
+    background-color: transparent !important;
+    box-shadow: none !important;
 }
 img:hover {
-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 .wrong1 {
-  top:200px;
+    top:200px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     color: Pink;
     font-size: 2.5em;
-  font-family: 'Arial', cursive; 
-  line-height:1.5;
-   text-decoration: none;
+    font-family: 'Arial', cursive;
+    line-height:1.5;
+    text-decoration: none;
 }
 .wrong2 {
-  top:100px;
+    top:100px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     color: Pink;
     font-size: 2.5em;
-  font-family: 'Arial', cursive; 
-  line-height:1.5;
-   text-decoration: none;
+    font-family: 'Arial', cursive;
+    line-height:1.5;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border: 2px solid black;
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+    top: 30%;
+    animation-delay: 0.3s;
+    /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down {
+    0% {
+        /* top:20%; */
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        top: 90%;
+        opacity: 0;
+    }
+}
+
+.container-cake {
+    background-color: #C5E0DC;
+    padding-top: 100px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.container {
+    display: block;
+    width: 100%;
+    height: 65%;
+    margin: 0;
+    padding: 5px;
+}
+
+/**,*/
+/**:before,*/
+/**:after {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    -webkit-box-sizing: border-box;*/
+/*    box-sizing: border-box;*/
+/*}*/
+body {
+    background-color: #fdbf00;
+}
+.wrapper {
+    width: 320px;
+    height: 180px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.container-bdaycake {
+    background-color: #ffffff;
+    position: relative;
+    height: 360px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 30px 40px rgb(68, 52, 2, 0.3);
+    box-shadow: 0 30px 40px rgb(68, 52, 2, 0.3);
+}
+/*a {*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    background-color: #ffffff;*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    padding: 12px 0;*/
+/*    text-align: center;*/
+/*    font-family: "Poppins", sans-serif;*/
+/*    font-weight: 600;*/
+/*    font-size: 20px;*/
+/*    text-decoration: none;*/
+/*    color: #000000;*/
+/*    border-radius: 5px;*/
+/*    -webkit-box-shadow: 0 30px 40px rgb(68, 52, 2, 0.3);*/
+/*    box-shadow: 0 30px 40px rgb(68, 52, 2, 0.3);*/
+/*}*/
+.cake {
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+}
+.bottom-layer,
+.top-layer,
+.middle-layer {
+    height: 80px;
+    width: 240px;
+    position: relative;
+    margin: auto;
+    background-repeat: repeat;
+    background-size: 100% 100%, 60px 100px;
+    background-position: 28px 0;
+    background-image: -o-linear-gradient(
+            transparent 50px,
+            #fedbab 50px,
+            #fedbab 60px,
+            transparent 60px
+    ),
+    -o-radial-gradient(30px 5px, circle, #994c10 30px, #fcbf29 31px);
+    background-image: linear-gradient(
+            transparent 50px,
+            #fedbab 50px,
+            #fedbab 60px,
+            transparent 60px
+    ),
+    radial-gradient(circle at 30px 5px, #994c10 30px, #fcbf29 31px);
+    border-radius: 10px 10px 0 0;
+}
+.middle-layer {
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    top: 72px;
+    -webkit-animation: rise-1 2s forwards;
+    animation: rise-1 2s forwards;
+}
+@-webkit-keyframes rise-1 {
+    100% {
+        top: 7px;
+    }
+}
+@keyframes rise-1 {
+    100% {
+        top: 7px;
+    }
+}
+.top-layer {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    top: 144px;
+    -webkit-animation: rise-2 2s 2s forwards;
+    animation: rise-2 2s 2s forwards;
+}
+@-webkit-keyframes rise-2 {
+    100% {
+        top: 26px;
+    }
+}
+@keyframes rise-2 {
+    100% {
+        top: 26px;
+    }
+}
+.candle {
+    background: -o-repeating-linear-gradient(
+            45deg,
+            #fd3018 0,
+            #fd3018 5px,
+            #ffa89e 5px,
+            #ffa89e 10px
+    );
+    background: repeating-linear-gradient(
+            45deg,
+            #fd3018 0,
+            #fd3018 5px,
+            #ffa89e 5px,
+            #ffa89e 10px
+    );
+    height: 45px;
+    width: 15px;
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-animation: rise-3 1s 4s forwards;
+    animation: rise-3 1s 4s forwards;
+}
+@-webkit-keyframes rise-3 {
+    100% {
+        bottom: 202px;
+    }
+}
+@keyframes rise-3 {
+    100% {
+        bottom: 202px;
+    }
+}
+.candle:after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 16px;
+    background-color: #ffb62d;
+    border-radius: 0 50% 50% 50%;
+    -webkit-transform: scale(0) rotate(45deg);
+    -ms-transform: scale(0) rotate(45deg);
+    transform: scale(0) rotate(45deg);
+    bottom: 50px;
+    left: -0.5px;
+    -webkit-animation: flame 1.5s 5s forwards;
+    animation: flame 1.5s 5s forwards;
+}
+@-webkit-keyframes flame {
+    100% {
+        -webkit-transform: scale(1) rotate(45deg);
+        transform: scale(1) rotate(45deg);
+    }
+}
+@keyframes flame {
+    100% {
+        -webkit-transform: scale(1) rotate(45deg);
+        transform: scale(1) rotate(45deg);
+    }
 }

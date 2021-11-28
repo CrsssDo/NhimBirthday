@@ -32,11 +32,6 @@
     <meta content="clickberry-extension-here" />
   </head>
 
-<!--        <style>
-      body {
-        	background-image: url("https://cdn.glitch.me/7385dd4d-aab3-4f3a-8ec3-463db9f5dadd%2FScreenshot%202021-10-07%20174926.png?v=1633603805105");
-          } 
-      </style>   -->
   
 <body>
     <link
@@ -44,58 +39,110 @@
       rel="stylesheet"
       type="text/css"
     />
-    
-      
-    
-        <a class="hopqua12" href=1Date.html >Quay lại</a>
-        <p class="hopqua11">Chọn 1 hộp quà đi </p>
-     
-    <div >
-       <a href=3hpbd.html>
-          <img class="hopqua6"
-              src=" https://cdn.glitch.me/7385dd4d-aab3-4f3a-8ec3-463db9f5dadd%2F5a1b9a119251a0.3459265715117583535993.png?v=1633597094106 "
+    <p class="hopqua11">Của em tất :>></p>
+    <div>
+       <a onclick="loadSoundT()" href="3hpbd.html">
+          <img class="hopqua10"
+              src="img/hop10.png"
              />
       </a> 
-      <a href=wrong.html>
-        <img class="hopqua1" 
-          src=" https://cdn.glitch.me/7385dd4d-aab3-4f3a-8ec3-463db9f5dadd%2F5a1cf5ad4a8492.9425124815118473413052.png?v=1633597087329 "
+      <a  onclick="loadSoundF()">
+        <img  class="hopqua1"
+          src="img/Hop1.png"
+             onclick="showMessage4()"
           /> 
         <img class="hopqua4"
-          src=" https://cdn.glitch.me/7385dd4d-aab3-4f3a-8ec3-463db9f5dadd%2F5a1c4bad063875.9605066515118038210255.png?v=1633597098257 "
+             src="img/hop4.png"
+             onclick="showMessage3()"
           />
         <img class="hopqua8"
-          src=" https://cdn.glitch.me/7385dd4d-aab3-4f3a-8ec3-463db9f5dadd%2Fkisspng-gift-taobao-box-gifts-gift-boxes-taobao-material-5a8592522c1396.9670818315187031861806.png?v=1633600874788 "
+             src="img/hop8.png"
+             onclick="showMessage2()"
           />
       </a>
-        <a href=wrong1.html>
+        <a onclick="loadSoundF()">
           <img class="hopqua2"
-              src=" https://cdn.glitch.me/7385dd4d-aab3-4f3a-8ec3-463db9f5dadd%2F5a1c399d46b3c0.1436377515117991972896.png?v=1633597089397 "
+               src="img/Hop2.png"
+               onclick="showMessage2()"
             />
           <img class="hopqua5"
-              src=" https://cdn.glitch.me/7385dd4d-aab3-4f3a-8ec3-463db9f5dadd%2F5a1cb459656fc6.4877850215118306174155.png?v=1633597104152 "
+               src="img/hop5.png"
+               onclick="showMessage4()"
             />
           <img class="hopqua9"
-              src=" https://cdn.glitch.me/7385dd4d-aab3-4f3a-8ec3-463db9f5dadd%2F5a1cb4696bd0d5.5660462015118306334416.png?v=1633600884717 "
+               src="img/hop9.png"
+               onclick="showMessage3()"
             />
       </a>     
         </a>
-        <a href=wrong3.html>
+        <a onclick="loadSoundF()">
           <img class="hopqua3"
-            src=" https://cdn.glitch.me/7385dd4d-aab3-4f3a-8ec3-463db9f5dadd%2F5a1d5b561d18c3.7579191715118733661192.png?v=1633602313589 "
+               src="img/Hop3.png"
+               onclick="showMessage1()"
           />
           <img class="hopqua7"
-            src=" https://cdn.glitch.me/7385dd4d-aab3-4f3a-8ec3-463db9f5dadd%2F5a1c4bb4e9e890.2803325615118038289581.png?v=1633600862540 "
+               src="img/hop7.png"
+               onclick="showMessage3()"
           />
-          <img class="hopqua10"
-            src=" https://cdn.glitch.me/7385dd4d-aab3-4f3a-8ec3-463db9f5dadd%2F5a1c85dcf0bbc7.7089645115118187169861.png?v=1633600875505 "
+          <img class="hopqua6"
+               src="img/hop6.png"
+               onclick="showMessage4()"
           />
       </a>  
             
   </div>
         
-           <audio id="player" autoplay loop>
-                <source src="" type="audio/mp3">
-            </audio>   
+           <audio autoplay loop>
+                <source src="sound/BongoCat.mp3" type="audio/mp3">
+            </audio>
+
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+        function loadSoundF() {
+            var audio = new Audio('sound/duck.mp3');
+            audio.play();
+        }
+        function loadSoundT() {
+            var audio = new Audio('sound/tick.mp3');
+            audio.play();
+        }
+        function showMessage1() {
+            swal({
+                title: "Gì dậy chời, sai nữa hả?  🤣🤣🤣", // Tiêu đề của popup
+                button: {
+                    text: ":>"
+                },
+            });
+        }
+        function showMessage2() {
+            swal({
+                title: "Kìa, chú là ếch con có hai là hai mắt tròn 😆😆😆",
+                button: {
+                    text: ":>"
+                },
+            });
+        }
+        function showMessage3() {
+          swal({
+            title: "Hai con thằn lằn con đùa nhau cắn nhau đứt đuôi 😝😝😝",
+            button: {
+              text: "😂"
+            },
+          });
+        }
+        function showMessage4() {
+            swal({
+                title: "Một con vịt xoè ra 2 cái cánh  😝😝",
+                button: {
+                    text: ":>",
+                },
+            });
+        }
+    </script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
  
   </body>
 </html>
