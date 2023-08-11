@@ -1,7 +1,6 @@
 const CONFIG = {
     titleWeb: "Thu Thảo birthday",
-    introDesc: `Hôm nay là 11/08 là một ngày đặc biệt của em nên anh hi vọng em luôn luôn vui vẻ,
-    luôn nở nụ cười? 😙`,
+    introDesc: `Tèn ten, hôm nay là 11/08 là một ngày đặc biệt của em. Xin gửi đến người con gái anh yêu lời chúc mừng sinh nhật ngọt ngào nhất. 😙`,
     btnIntro: '^^',
     title: 'Trả lời đúng câu này sẽ được quà nè ^^',
     desc: 'Em có sợ anh không? 😙',
